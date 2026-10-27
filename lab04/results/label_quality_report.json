@@ -1,0 +1,13 @@
+{
+    "conflicting_feature_groups": 5,
+    "random_sample_size": 50,
+    "sample_checks": {
+        "age": 0,
+        "hours-per-week": 0,
+        "capital-gain": 0,
+        "capital-loss": 0,
+        "education_consistency": 0,
+        "invalid_income_labels": 0
+    },
+    "manual_review_status": "Pending human review"
+}

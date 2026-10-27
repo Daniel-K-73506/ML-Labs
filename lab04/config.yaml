@@ -1,0 +1,33 @@
+lab: Lab 4 - Data Pipeline and Quality
+dataset:
+  name: adult
+  source: OpenML / UCI Adult
+  version: 2
+  raw_rows: 48842
+  raw_columns: 15
+  target: class
+pipeline:
+  random_state: 42
+  test_size: 0.3
+  stratified: true
+  categorical_imputation: most_frequent
+  numeric_imputation: median
+  numeric_clipping:
+  - 0.01
+  - 0.99
+  duplicates: remove exact training duplicates
+  feature_engineering:
+  - capital_net
+  - hours_per_age
+model:
+  type: LogisticRegression
+  max_iter: 2000
+  metrics:
+  - accuracy
+  - f1
+  positive_class: '>50K'
+environment:
+  python: 3.11.8
+  scikit_learn: 1.9.1
+  pandas: 3.1.0
+  numpy: 2.4.6

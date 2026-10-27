@@ -1,0 +1,45 @@
+{
+    "rows": 48842,
+    "columns": 15,
+    "schema_checks": {
+        "age": true,
+        "fnlwgt": true,
+        "education-num": true,
+        "capital-gain": true,
+        "capital-loss": true,
+        "hours-per-week": true,
+        "workclass": true,
+        "education": true,
+        "marital-status": true,
+        "occupation": true,
+        "relationship": true,
+        "race": true,
+        "sex": true,
+        "native-country": true,
+        "class": true
+    },
+    "range_violations": {
+        "age": 0,
+        "hours-per-week": 0,
+        "capital-gain": 0,
+        "capital-loss": 0
+    },
+    "missing_values": {
+        "age": 0,
+        "workclass": 2799,
+        "fnlwgt": 0,
+        "education": 0,
+        "education-num": 0,
+        "marital-status": 0,
+        "occupation": 2809,
+        "relationship": 0,
+        "race": 0,
+        "sex": 0,
+        "capital-gain": 0,
+        "capital-loss": 0,
+        "hours-per-week": 0,
+        "native-country": 857,
+        "class": 0
+    },
+    "exact_duplicates": 52
+}
