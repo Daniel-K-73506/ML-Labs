@@ -5,7 +5,7 @@
 Set up a reproducible, pinned Python environment, train two baseline classifiers on the
 Breast Cancer Wisconsin (Diagnostic) dataset, measure their **system cost** (training time,
 single-sample inference latency, model size, peak memory), and decide which deployment
-tiers (Cloud, Edge, Mobile, TinyML) each model could run on.
+tiers (Cloud, Edge, Mobile, TinyML) each model could run on.'
 
 ## 2. Method
 
